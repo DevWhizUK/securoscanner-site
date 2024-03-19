@@ -55,7 +55,7 @@
                 <div class="w-full sm:w-1/2 lg:w-1/3 px-4 mb-2">
                     <div class="text-center">
                         <img src="assets/img/index/features/infinity.png" alt="Powerful Security"
-                            class="mx-auto mb-4 h-auto w-24 sm:w-32 lg:w-40 xl:w-48"" />
+                            class="mx-auto mb-4 h-auto w-24 sm:w-32 lg:w-40 xl:w-48" />
               <h3 class=" font-semibold mb-2">Powerful security within minutes</h3>
                         <p>For those who want to do more, secure more and collaborate more. SecuroScanner is fast and easy
                             to set up for
@@ -91,7 +91,7 @@
                     recent survey of 700 IT professionals to help address the dilemma of balancing innovation while
                     staying
                     secure.</p>
-                <a href="linktree.html"
+                <a href="linktree.php"
                     class="mt-8 bg-blue-600 text-white px-6 py-3 rounded-md text-lg font-medium hover:bg-blue-700">Discover
                     more</a>
             </div>
