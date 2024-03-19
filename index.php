@@ -98,6 +98,8 @@
         </div>
     </section>
 
+    <?php include ("assets/inc/footer/footer.html"); ?>
+
 </body>
 
 </html>
