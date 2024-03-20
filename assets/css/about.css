@@ -1,0 +1,7 @@
+.logo {
+    height: 165px; /* Adjust the height as needed */
+    background-image: url('../img/about/logo.png'); /* Replace with your logo URL */
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+  }
