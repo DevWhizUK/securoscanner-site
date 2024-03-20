@@ -10,8 +10,6 @@
 
 <body class="bg-white text-gray-800">
 
-
-
     <?php include ("assets/inc/nav/nav.html"); ?>
 
     <!-- Hero -->
