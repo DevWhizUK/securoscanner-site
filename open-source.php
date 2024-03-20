@@ -25,7 +25,7 @@
                 participate in enhancing and securing the SecuroScanner platform, reinforcing our dedication to building
                 a
                 safer digital world together.</p>
-            <button class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+            <button onclick="location.href='coming-soon.php';" class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
                 Check out SecuroScanner on Github
             </button>
         </div>
@@ -41,7 +41,7 @@
                 <!-- Server -->
                 <div
                     class="text-center text-white p-6 shadow-md rounded-lg bg-blue-900 hover:scale-105 ease-in-out duration-300">
-                    <a href="#">
+                    <a href="coming-soon.php">
                         <img class="block h-40 mx-auto mb-4" src="assets/img/open-source/git/data.png" alt="">
                         <h3 class="font-semibold mb-2 text-white">Database</h3>
                         <p>The SecuroScanner Server project encompasses the databaseand comprehensive documentation
@@ -51,7 +51,7 @@
                 <!-- Browser -->
                 <div
                     class="text-center p-6 shadow-md rounded-lg bg-blue-900 text-white hover:scale-105 ease-in-out duration-300">
-                    <a href="#">
+                    <a href="coming-soon.php">
                         <img class="block h-40 mx-auto mb-4" src="assets/img/open-source/git/web.png" alt="">
                         <h3 class="font-semibold mb-2">Browser</h3>
                         <p>
@@ -63,7 +63,7 @@
                 <!-- Web -->
                 <div
                     class="text-center p-6 shadow-md rounded-lg bg-blue-900 text-white hover:scale-105 ease-in-out duration-300">
-                    <a href="#">
+                    <a href="coming-soon.php">
                         <img class="block h-40 mx-auto mb-4" src="assets/img/open-source/git/mobile.png" alt="">
                         <h3 class="font-semibold mb-2">Mobile</h3>
                         <p>The SecuroScanner Mobile Project, is the repository for the mobile version of the
@@ -83,7 +83,7 @@
                 <p class="mb-6">Join us in our Gitter chat channel to talk directly with SecuroScanner developers about
                     code
                     contributions or swing by our Facebook to ask questions or discuss product features.</p>
-                <a href=""
+                <a href="coming-soon.php"
                     class="button-style bg-blue-600 text-white hover:bg-blue-700 focus:ring-blue-500 font-bold py-2 px-4 rounded border border-transparent focus:outline-none focus:ring-2 focus:ring-offset-2 mr-6">
                     Gitter Chat
                 </a>

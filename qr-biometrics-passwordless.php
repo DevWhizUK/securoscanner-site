@@ -84,13 +84,13 @@
     <section class="bg-blue-900 text-white py-12 ">
         <div class="container mx-auto px-8 text-center">
             <h1 class="text-4xl font-bold mb-7">Get Started with SecuroScanner Today!</h1>
-            <a href="signup.html"
+            <a href="coming-soon.php"
                 class="bg-blue-600 text-white px-6 py-3 mt-10 rounded-md hover:bg-blue-700 transition duration-300">Create your free account</a>
         </div>
     </section>
 
     <?php include ("assets/inc/footer/footer.html"); ?>
-    
+
 </body>
 
 </html>

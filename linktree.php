@@ -18,35 +18,35 @@
                     <img class="h-10 w-10 rounded-full mr-4" src="assets/img/linktree/facebook.png" alt="Facebook Icon">
                     <span>Check Out SecuroScanner on Facebook</span>
                 </a>
-                <a href="#" class="flex items-center px-4 py-3 my-2 bg-gray-200 rounded-full shadow hover:bg-gray-300 transition-colors duration-300">
+                <a href="coming-soon.php" class="flex items-center px-4 py-3 my-2 bg-gray-200 rounded-full shadow hover:bg-gray-300 transition-colors duration-300">
                     <img class="h-10 w-10 rounded-full mr-4" src="assets/img/linktree/instagram.png" alt="Instagram Icon">
                     <span>Check Out SecuroScanner on Instagram</span>
                 </a>
-                <a href="#" class="flex items-center px-4 py-3 my-2 bg-gray-200 rounded-full shadow hover:bg-gray-300 transition-colors duration-300">
+                <a href="coming-soon.php" class="flex items-center px-4 py-3 my-2 bg-gray-200 rounded-full shadow hover:bg-gray-300 transition-colors duration-300">
                     <img class="h-10 w-10 rounded-full mr-4" src="assets/img/linktree/tiktok.png" alt="TikTok Icon">
                     <span>Check Out SecuroScanner on TikTok</span>
                 </a>
-                <a href="#" class="flex items-center px-4 py-3 my-2 bg-gray-200 rounded-full shadow hover:bg-gray-300 transition-colors duration-300">
+                <a href="coming-soon.php" class="flex items-center px-4 py-3 my-2 bg-gray-200 rounded-full shadow hover:bg-gray-300 transition-colors duration-300">
                     <img class="h-10 w-10 rounded-full mr-4" src="assets/img/linktree/snapchat.png" alt="SnapChat Icon">
                     <span>Check Out SecuroScanner on SnapChat</span>
                 </a>
-                <a href="#" class="flex items-center px-4 py-3 my-2 bg-gray-200 rounded-full shadow hover:bg-gray-300 transition-colors duration-300">
+                <a href="coming-soon.php" class="flex items-center px-4 py-3 my-2 bg-gray-200 rounded-full shadow hover:bg-gray-300 transition-colors duration-300">
                     <img class="h-10 w-10 rounded-full mr-4" src="assets/img/linktree/x.png" alt="X Icon">
                     <span>Check Out SecuroScanner on X</span>
                 </a>
-                <a href="#" class="flex items-center px-4 py-3 my-2 bg-gray-200 rounded-full shadow hover:bg-gray-300 transition-colors duration-300">
+                <a href="coming-soon.php" class="flex items-center px-4 py-3 my-2 bg-gray-200 rounded-full shadow hover:bg-gray-300 transition-colors duration-300">
                     <img class="h-10 w-10 rounded-full mr-4" src="assets/img/linktree/youtube.png" alt="YouTube Icon">
                     <span>Check Out SecuroScanner on YouTube</span>
                 </a>
-                <a href="#" class="flex items-center px-4 py-3 my-2 bg-gray-200 rounded-full shadow hover:bg-gray-300 transition-colors duration-300">
+                <a href="coming-soon.php" class="flex items-center px-4 py-3 my-2 bg-gray-200 rounded-full shadow hover:bg-gray-300 transition-colors duration-300">
                     <img class="h-10 w-10 rounded-full mr-4" src="assets/img/linktree/youtube_shorts.png" alt="YouTube Shorts Icon">
                     <span>Check Out SecuroScanner on Shorts</span>
                 </a>
-                <a href="#" class="flex items-center px-4 py-3 my-2 bg-gray-200 rounded-full shadow hover:bg-gray-300 transition-colors duration-300">
+                <a href="coming-soon.php" class="flex items-center px-4 py-3 my-2 bg-gray-200 rounded-full shadow hover:bg-gray-300 transition-colors duration-300">
                     <img class="h-10 w-10 rounded-full mr-4" src="assets/img/linktree/reddit.png" alt="Reddit Icon">
                     <span>Check Out SecuroScanner on Reddit</span>
                 </a>
-                <a href="#" class="flex items-center px-4 py-3 my-2 bg-gray-200 rounded-full shadow hover:bg-gray-300 transition-colors duration-300">
+                <a href="coming-soon.php" class="flex items-center px-4 py-3 my-2 bg-gray-200 rounded-full shadow hover:bg-gray-300 transition-colors duration-300">
                     <img class="h-10 w-10 rounded-full mr-4" src="assets/img/linktree/pintrest.png" alt="Pinterest Icon">
                     <span>Check Out SecuroScanner on Pinterest</span>
                 </a>

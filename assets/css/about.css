@@ -5,3 +5,27 @@
     background-size: contain;
     background-position: center;
   }
+
+  @media (max-width: 768px) {
+    #lower-hero {
+        visibility: hidden;
+        /* Remove space-x-4 and add vertical spacing if needed */
+        overflow: hidden;
+    }
+
+    .logo{
+        visibility: hidden;
+        overflow: hidden;
+    }
+
+    iframe{
+        visibility: hidden;
+        overflow: hidden;
+    }
+
+    .about-btn{
+        margin-bottom: -550px;
+    }
+
+   
+}
