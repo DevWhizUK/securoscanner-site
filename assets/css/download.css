@@ -1,0 +1,11 @@
+@media (max-width: 768px) {
+    .flex-row {
+        flex-direction: column;
+        /* Remove space-x-4 and add vertical spacing if needed */
+    }
+    .flex-row > div {
+        /* Optional: Adjust width on smaller screens */
+        width: 100%;
+        margin-bottom: 20px; /* Add some space between stacked items */
+    }
+}
