@@ -1,0 +1,13 @@
+#strengthBarContainer {
+    background-color: #ddd;
+    border-radius: 4px;
+    height: 10px;
+    width: 100%;
+    margin-top: 0.5rem;
+  }
+  #strengthBar {
+    height: 100%;
+    width: 0%;
+    border-radius: 4px;
+    transition: width 0.3s;
+  }
