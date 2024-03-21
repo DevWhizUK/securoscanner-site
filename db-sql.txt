@@ -1,0 +1,59 @@
+This text file contains the sql code neccesary to create an empty version of
+the database being used in this project.
+
+---------------------------------------------------------------------------------
+
+CREATE TABLE Users (
+    UserID INT PRIMARY KEY AUTO_INCREMENT,
+    UserName VARCHAR(255) NOT NULL,
+    Email VARCHAR(255) NOT NULL UNIQUE,
+    PasswordHash VARCHAR(255) NOT NULL,
+    -- Other fields like registration date, etc.
+    RegistrationDate DATETIME DEFAULT CURRENT_TIMESTAMP
+);
+
+CREATE TABLE Passwords (
+    PasswordID INT PRIMARY KEY AUTO_INCREMENT,
+    UserID INT,
+    Name VARCHAR(255) NOT NULL,
+    Username VARCHAR(255),
+    Password VARCHAR(255) NOT NULL,
+    URL VARCHAR(255),
+    DateCreated DATETIME DEFAULT CURRENT_TIMESTAMP,
+    FOREIGN KEY (UserID) REFERENCES Users(UserID)
+);
+
+CREATE TABLE Folders (
+    FolderID INT PRIMARY KEY AUTO_INCREMENT,
+    UserID INT,
+    FolderName VARCHAR(255) NOT NULL,
+    FOREIGN KEY (UserID) REFERENCES Users(UserID)
+);
+
+CREATE TABLE PasswordFolders (
+    PasswordID INT,
+    FolderID INT,
+    PRIMARY KEY (PasswordID, FolderID),
+    FOREIGN KEY (PasswordID) REFERENCES Passwords(PasswordID),
+    FOREIGN KEY (FolderID) REFERENCES Folders(FolderID)
+);
+
+CREATE TABLE Bin (
+    PasswordID INT,
+    UserID INT,
+    DeletedDate DATETIME DEFAULT CURRENT_TIMESTAMP,
+    PRIMARY KEY (PasswordID),
+    FOREIGN KEY (PasswordID) REFERENCES Passwords(PasswordID) ON DELETE CASCADE,
+    FOREIGN KEY (UserID) REFERENCES Users(UserID)
+);
+
+---------------------------------------------------------------------------------
+
+The below sql adds an automatic purge of the users Bin
+
+---------------------------------------------------------------------------------
+
+CREATE EVENT purge_bin
+ON SCHEDULE EVERY 1 DAY
+DO
+  DELETE FROM Bin WHERE DeletedDate < NOW() - INTERVAL 10 DAY;
