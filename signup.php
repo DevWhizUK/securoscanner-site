@@ -12,7 +12,7 @@
 <div class="min-h-screen flex items-center justify-center">
   <div class="bg-white p-8 rounded shadow-md w-full max-w-xl">
     <h2 class="text-2xl font-semibold text-center mb-6 text-blue-900">The SecuroScanner Password Manager</h2>
-    <form id="signupForm" action="assets/classes/signup.php" method="post">
+    <form id="signupForm" action="assets/php/signup-logic.php" method="post">
       <div class="mb-4">
         <label for="email" class="block text-sm font-semibold text-gray-700">Email address (required)</label>
         <input type="email" id="email" name="email" placeholder="You'll use your email address to log in." class="mt-1 p-2 border rounded w-full" required />
@@ -42,11 +42,11 @@
       </div>
       <button type="submit" class="w-full bg-blue-600 text-white p-2 rounded hover:bg-blue-700">Create account</button>
     </form>
-    <p class="text-center text-sm text-gray-600 mt-4">Already have an account? <a href="login.html" class="text-blue-500">Log in</a></p>
+    <p class="text-center text-sm text-gray-600 mt-4">Already have an account? <a href="login.php" class="text-blue-500">Log in</a></p>
   </div>
 </div>
 
     <script src="assets/js/signup.js"></script>
-    
+
 </body>
 </html>
