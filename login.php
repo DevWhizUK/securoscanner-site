@@ -46,7 +46,7 @@
       <div class="text-center">
         <p class="text-gray-600">or</p>
         <p class="mt-3 mb-10">
-          <a href="signup.html" class="text-blue-600 hover:underline">New around here? Create account</a>
+          <a href="signup.php" class="text-blue-600 hover:underline">New around here? Create account</a>
         </p>
       </div>
     </div>

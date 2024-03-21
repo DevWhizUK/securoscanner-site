@@ -21,7 +21,7 @@
                     passwords,
                     passkeys, and sensitive information.</p>
                 <div class="flex justify-center md:justify-start">
-                    <a href="coming-soon.php"
+                    <a href="signup.php"
                         class="bg-blue-600 text-white px-6 py-3 rounded-md text-lg font-medium hover:bg-blue-700 mr-4">Sign
                         Up!</a>
                     <a href="login.php"

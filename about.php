@@ -54,7 +54,7 @@
                     </p>
                     <!-- Call-to-action button -->
                     <div class="flex justify-center md:justify-center text-center about-btn">
-                        <a href="coming-soon.php"
+                        <a href="signup.php"
                             class="px-6 py-2 text-white bg-blue-600 rounded hover:bg-blue-700 focus:outline-none mt-3">
                             Get started now
                         </a>

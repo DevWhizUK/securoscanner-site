@@ -17,7 +17,7 @@
         <div class="text-center">
             <h1 class="text-4xl font-bold mb-2">Install and Sync All of Your Devices</h1>
             <p class="mb-6 text-gray-700">Secure cloud syncing lets you access your sensitive information from any device</p>
-            <button onclick="location.href='coming-soon.php';" class="bg-blue-600 text-white font-bold py-2 px-4 rounded mr-2 hover:bg-blue-700">Get started today</button>
+            <button onclick="location.href='signup.php';" class="bg-blue-600 text-white font-bold py-2 px-4 rounded mr-2 hover:bg-blue-700">Get started today</button>
             <button onclick="location.href='login.php';" class="bg-transparent border border-blue-600 text-blue-600 font-semibold py-2 px-4 rounded">Sign In</button>
         </div>
 
