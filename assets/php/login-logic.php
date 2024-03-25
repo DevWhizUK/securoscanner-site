@@ -33,7 +33,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         if (password_verify($password, $user['PasswordHash'])) {
             echo "Password verified successfully.<br>"; // Debug info
             $_SESSION['user_id'] = $user['UserID']; // Set a session variable
-            header("Location: dashboard.php"); // Redirect to a logged-in page
+            $_SESSION['user_name'] = $user['UserName'];
+            header("Location: ../../index.php"); // Redirect to a logged-in page
             exit();
         } else {
             echo "Password verification failed.<br>"; // Debug info

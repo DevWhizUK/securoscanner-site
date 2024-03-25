@@ -1,50 +1,46 @@
-document.addEventListener("DOMContentLoaded", function () {
-  const menuButton = document.querySelector(".mobile-menu-button");
-  const mobileMenu = document.querySelector(".mobile-menu");
+document.addEventListener('DOMContentLoaded', function() {
+  // Mobile menu toggle
+  const menuButton = document.querySelector('.mobile-menu-button');
+  const mobileMenu = document.querySelector('.mobile-menu');
+  if (menuButton) {
+      menuButton.addEventListener('click', function() {
+          mobileMenu.classList.toggle('hidden');
+      });
+  }
 
-  menuButton.addEventListener("click", () => {
-    mobileMenu.classList.toggle("hidden");
+  // Event delegation for all dropdown toggles
+  document.addEventListener('click', function(event) {
+      let target = event.target;
+
+      // Traverse up to find a .dropdown-toggle or stop at body
+      while (target && target !== document.body) {
+          if (target.matches('.dropdown-toggle')) {
+              // Toggle the next .dropdown-content
+              const dropdownContent = target.nextElementSibling;
+              if (dropdownContent && dropdownContent.classList.contains('dropdown-content')) {
+                  dropdownContent.classList.toggle('hidden');
+              }
+              // Prevent further event bubbling
+              event.preventDefault();
+              return;
+          }
+          target = target.parentElement;
+      }
   });
 
-  document.querySelectorAll(".relative").forEach((dropdown) => {
-    dropdown.addEventListener("mouseenter", () => {
-      dropdown.querySelector(".absolute").classList.remove("hidden");
-    });
-    dropdown.addEventListener("mouseleave", () => {
-      dropdown.querySelector(".absolute").classList.add("hidden");
-    });
+  // Additional hover functionality for non-mobile dropdowns, unchanged
+  document.querySelectorAll('.relative').forEach((dropdown) => {
+      dropdown.addEventListener('mouseenter', () => {
+          const dropdownContent = dropdown.querySelector('.absolute');
+          if (dropdownContent) {
+              dropdownContent.classList.remove('hidden');
+          }
+      });
+      dropdown.addEventListener('mouseleave', () => {
+          const dropdownContent = dropdown.querySelector('.absolute');
+          if (dropdownContent) {
+              dropdownContent.classList.add('hidden');
+          }
+      });
   });
-});
-document.addEventListener("DOMContentLoaded", function () {
-  const dropdownButton = document.querySelector(".dropdown-button");
-  const dropdownMenu = document.querySelector(".dropdown-menu");
-  let timer;
-
-  dropdownButton.addEventListener("mouseenter", () => {
-    clearTimeout(timer);
-    dropdownMenu.classList.remove("hidden");
-  });
-
-  dropdownButton.addEventListener("mouseleave", () => {
-    timer = setTimeout(() => {
-      dropdownMenu.classList.add("hidden");
-    }, 500);
-  });
-
-  dropdownMenu.addEventListener("mouseenter", () => {
-    clearTimeout(timer);
-  });
-
-  dropdownMenu.addEventListener("mouseleave", () => {
-    dropdownMenu.classList.add("hidden");
-  });
-});
-
-document.addEventListener("DOMContentLoaded", function () {
-  document
-    .querySelector(".dropdown-toggle")
-    .addEventListener("click", function () {
-      const dropdownContent = this.nextElementSibling;
-      dropdownContent.classList.toggle("hidden");
-    });
 });

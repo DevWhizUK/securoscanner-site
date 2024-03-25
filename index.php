@@ -1,3 +1,5 @@
+<?php include ("assets/php/session.php") ?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -10,7 +12,7 @@
 
 <body class="bg-white text-gray-600 work-sans leading-normal text-base tracking-normal">
 
-    <?php include ("assets/inc/nav/nav.html"); ?>
+    <?php include ("assets/inc/nav/nav.php"); ?>
 
     <header class="bg-blue-900 text-white text-center py-16">
         <div class="container mx-auto flex flex-col md:flex-row items-center justify-between px-6">
